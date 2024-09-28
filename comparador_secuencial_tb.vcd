@@ -1,0 +1,62 @@
+$date
+	Fri Aug 30 22:02:29 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module comparador_secuencial_tb $end
+$var wire 1 ! q $end
+$var reg 8 " A [7:0] $end
+$var reg 8 # B [7:0] $end
+$var reg 1 $ clk $end
+$scope module UUT $end
+$var wire 8 % A [7:0] $end
+$var wire 8 & B [7:0] $end
+$var wire 1 $ clk $end
+$var reg 1 ! q $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 &
+b0 %
+0$
+b0 #
+b0 "
+x!
+$end
+#10000
+0!
+1$
+#20000
+0$
+b1010 #
+b1010 &
+b10010 "
+b10010 %
+#30000
+1!
+1$
+#40000
+0$
+b10010 #
+b10010 &
+b1010 "
+b1010 %
+#50000
+0!
+1$
+#60000
+0$
+b100100 #
+b100100 &
+b100100 "
+b100100 %
+#70000
+1$
+#80000
+0$
